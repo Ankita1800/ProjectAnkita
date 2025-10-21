@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 // PLAN EXECUTED: Replaced placeholder '#' links with illustrative, standard URLs.
 const SOCIAL_LINKS = {
-  linkedIn: "https://www.linkedin.com/in/your-profile-name",
-  github: "https://github.com/your-username",
+  linkedIn: "https://www.linkedin.com/in/ankita-sahoo-73874b285/",
+  github: "https://github.com/Ankita1800",
   twitter: "https://twitter.com/your-handle"
 };
 const EMAIL_ADDRESS = "mailto:ankitasahoo370@gmail.com";

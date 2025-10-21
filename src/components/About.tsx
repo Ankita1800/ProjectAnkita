@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 // --- Data for the component ---
 const SKILLS = ["PyTorch", "TensorFlow", "Kubernetes", "Docker", "MLOps", "AWS", "GCP", "Python"];
-const CTA_LINK = "#"; // Replace with your actual LinkedIn profile URL
+const CTA_LINK = "https://www.linkedin.com/in/ankita-sahoo-73874b285/";
 
 // --- Animation Variants ---
 const gridVariants: Variants = {
