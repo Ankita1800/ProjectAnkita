@@ -9,6 +9,7 @@ const interTight = Inter_Tight({
   display: "swap",
   weight: ["100", "300", "400", "500", "600", "700", "800", "900"],
 });
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
