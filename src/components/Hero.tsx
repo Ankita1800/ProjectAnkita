@@ -44,7 +44,7 @@ const Hero = ({ isAnimated }: { isAnimated: boolean }) => {
                         variants={fadeUpVariants}
                         className="font-inter text-[7.2vw] md:text-[5.76vw] font-medium leading-none tracking-tighter text-black/90 whitespace-nowrap"
                     >
-                        Machine Learning Engineer
+                        Data Analyst & AI/ML Developer
                     </motion.h2>
 
                     <motion.h2
@@ -70,12 +70,11 @@ const Hero = ({ isAnimated }: { isAnimated: boolean }) => {
                 
                 {/* --- The Descriptive Paragraph --- */}
                 <motion.p
-                    variants={fadeUpVariants}
-                    className="max-w-4xl mx-auto mt-12 font-inter text-xl text-black/80 leading-relaxed"
-                >
-                    {/* PLAN EXECUTED: Refined the copy for a more polished and impactful narrative. */}
-                    With <strong className="font-medium text-black">5 years</strong> of experience, I deliver robust solutions across diverse sectors—from retail and tech startups to healthcare and B2B enterprises. I pair strong <strong className="font-medium text-black">machine learning</strong> skills with expertise in <strong className="font-medium text-black">strategy and architecture</strong> to build systems aligned with key <strong className="font-medium text-black">business</strong> objectives.
-                </motion.p>
+    variants={fadeUpVariants}
+    className="max-w-4xl mx-auto mt-12 font-inter text-xl text-black/80 leading-relaxed"
+>
+    I&apos;m an MCA graduate specialising in AI &amp; Machine Learning from Lovely Professional University. I build end-to-end data and ML solutions — from prediction models to AI-powered web apps — and I&apos;m actively looking for my first full-time role in Data Analytics, Business Intelligence, or Junior AI/ML.
+</motion.p>
             </motion.div>
         </section>
     );
