@@ -5,7 +5,7 @@ import { motion, Variants } from 'framer-motion';
 import Image from 'next/image';
 
 // --- Data for the component ---
-const SKILLS = ["PyTorch", "TensorFlow", "Kubernetes", "Docker", "MLOps", "AWS", "GCP", "Python"];
+const SKILLS = ["PyTorch", "TensorFlow", "SQL", "Pandas", "Power BI", "AWS", "Scikit-learn", "Python"];
 const CTA_LINK = "https://www.linkedin.com/in/ankita-sahoo-73874b285/";
 
 // --- Animation Variants ---
@@ -74,14 +74,14 @@ const About = React.forwardRef<HTMLDivElement>((props, ref) => {
 
                 {/* Cell 4: Personal Bio */}
                 <motion.div
-                    variants={cellVariants}
-                    className="lg:col-span-2 rounded-3xl bg-white/50 p-8 backdrop-blur-lg border border-white"
-                >
-                    <h3 className="font-inter text-2xl font-medium text-black/90">Engineer & Innovator</h3>
-                    <p className="mt-4 font-inter text-lg text-black/70 leading-relaxed">
-                        My fascination isn&apos;t just with algorithms; it&apos;s with the stories hidden within data. I architect intelligent systems that translate raw information into realities that drive decisions and create value.
-                    </p>
-                </motion.div>
+    variants={cellVariants}
+    className="lg:col-span-2 rounded-3xl bg-white/50 p-8 backdrop-blur-lg border border-white"
+>
+    <h3 className="font-inter text-2xl font-medium text-black/90">Analyst & Builder</h3>
+    <p className="mt-4 font-inter text-lg text-black/70 leading-relaxed">
+        I&apos;m an MCA graduate in AI &amp; ML. I work with Python, SQL, and machine learning to find patterns in data and turn them into something useful a dashboard, a prediction model, or a working web app.
+    </p>
+</motion.div>
 
                 {/* Cell 5: Skills Toolkit */}
                 <motion.div

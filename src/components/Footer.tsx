@@ -9,9 +9,9 @@ import Link from 'next/link';
 const SOCIAL_LINKS = {
   linkedIn: "https://www.linkedin.com/in/ankita-sahoo-73874b285/",
   github: "https://github.com/Ankita1800",
-  twitter: "https://twitter.com/your-handle"
+  twitter: "https://x.com/Ankiitaa_03"
 };
-const EMAIL_ADDRESS = "mailto:ankitasahoo370@gmail.com";
+const EMAIL_ADDRESS = "https://mail.google.com/mail/?view=cm&to=ankitasahoo370@gmail.com";
 
 const MinimalLink: FC<{ href: string; children: ReactNode }> = ({ href, children }) => (
   <Link href={href} target="_blank" className="text-white/60 transition-colors duration-300 hover:text-white">

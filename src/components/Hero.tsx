@@ -62,7 +62,7 @@ const Hero = ({ isAnimated }: { isAnimated: boolean }) => {
                             </div>
                         </div>
                         <span className="font-editorial font-light italic">based in</span> 
-                        <span className="bg-black text-white px-3 py-1 rounded-lg">Bangalore.</span>
+                        <span className="bg-black text-white px-3 py-1 rounded-lg">Chandigarh.</span>
                     {/* PLAN EXECUTED: Removed the extra space in the closing tag to fix the critical syntax error. */}
                     </motion.h2>
 
@@ -73,7 +73,7 @@ const Hero = ({ isAnimated }: { isAnimated: boolean }) => {
     variants={fadeUpVariants}
     className="max-w-4xl mx-auto mt-12 font-inter text-xl text-black/80 leading-relaxed"
 >
-    I&apos;m an MCA graduate specialising in AI &amp; Machine Learning from Lovely Professional University. I build end-to-end data and ML solutions — from prediction models to AI-powered web apps — and I&apos;m actively looking for my first full-time role in Data Analytics, Business Intelligence, or Junior AI/ML.
+    I&apos;m an MCA graduate specialising in AI &amp; Machine Learning from Lovely Professional University. I build end-to-end data and ML solutions from prediction models to AI-powered web apps and I&apos;m actively looking for my first full time role in Data Analytics, Business Intelligence, or Junior AI/ML.
 </motion.p>
             </motion.div>
         </section>
