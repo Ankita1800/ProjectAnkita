@@ -51,19 +51,20 @@ const Hero = ({ isAnimated }: { isAnimated: boolean }) => {
                         variants={fadeUpVariants}
                         className="mt-[1vw] font-inter text-[5.76vw] md:text-[4.32vw] font-medium leading-none tracking-tighter text-black/90 flex items-center justify-center gap-[1.5vw]"
                     >
-                        <div className="relative inline-block h-[1.5em] aspect-square p-1 rounded-xl bg-white/40 backdrop-blur-md border border-white/50 shadow-md">
-                           <div className="relative w-full h-full rounded-lg overflow-hidden">
-                                <Image 
-                                    src="/assets/placeholder.png" 
-                                    alt="Ankita's Location" 
-                                    fill 
-                                    className="object-cover"
+                        <span className="relative inline-block h-[1.5em] aspect-square p-1 rounded-xl bg-white/40 backdrop-blur-md border border-white/50 shadow-md align-middle">
+                            <span className="relative block h-full w-full overflow-hidden rounded-lg">
+                                <Image
+                                    src="/assets/placeholder.jpg"
+                                    alt="Ankita Sahoo portrait"
+                                    fill
+                                    sizes="(max-width: 768px) 12vw, 6vw"
+                                    className="object-cover object-center"
+                                    priority
                                 />
-                            </div>
-                        </div>
+                            </span>
+                        </span>
                         <span className="font-editorial font-light italic">based in</span> 
                         <span className="bg-black text-white px-3 py-1 rounded-lg">Chandigarh.</span>
-                    {/* PLAN EXECUTED: Removed the extra space in the closing tag to fix the critical syntax error. */}
                     </motion.h2>
 
                 </div>
