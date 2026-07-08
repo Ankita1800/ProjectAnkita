@@ -47,7 +47,14 @@ const About = React.forwardRef<HTMLDivElement>((props, ref) => {
                     variants={cellVariants}
                     className="relative aspect-square w-full rounded-3xl overflow-hidden shadow-xl"
                 >
-                    <Image src="C:\Users\Admin\OneDrive\Documents\GitHub\ProjectAnkita\public\assets\placeholder.jpg" alt="A portrait of Ankita Sahoo" fill className="object-cover" sizes="(max-width: 768px) 90vw, 30vw"/>
+                    <Image
+                        src="/assets/placeholder.jpg"
+                        alt="A portrait of Ankita Sahoo"
+                        fill
+                        className="object-cover object-center"
+                        sizes="(max-width: 768px) 90vw, 30vw"
+                        priority
+                    />
                 </motion.div>
                 
                 {/* Cell 3: Interactive Call-to-Action (CTA) */}
