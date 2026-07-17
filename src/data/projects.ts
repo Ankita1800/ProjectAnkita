@@ -34,7 +34,7 @@ export const PROJECTS_DATA: Project[] = [
   imageSrc: "/assets/placeholder.jpg",
   description: "Built an end-to-end inventory optimization system using the DataCo Smart Supply Chain dataset, combining demand forecasting, delivery delay prediction, and dead stock detection to drive smarter restocking decisions.",
   tags: [{ name: "Python" }, { name: "XGBoost" }, { name: "Streamlit" }, { name: "Power BI" }],
-  href: "#",
+  href: "https://github.com/Ankita1800/supply-chain-optimization",
 },
   {
     id: "multimodal-ai-assistant",
